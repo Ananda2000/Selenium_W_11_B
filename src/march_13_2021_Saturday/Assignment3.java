@@ -19,6 +19,10 @@ public class Assignment3 {
 		driver0987_3.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		driver0987_3.findElement(By.xpath("//div[text()='Login ']")).click();
 		
+		driver0987_3.findElement(By.xpath("//button[@id='ext-gen23']")).click();
+		
+		System.out.println("This is anand here..");
+		
 		
 		
 	}
